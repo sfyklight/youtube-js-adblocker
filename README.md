@@ -10,7 +10,7 @@ Paste And Run JS Code
 function adblockerbygza(){
     try
     {
-        document.querySelector('.ytp-ad-skip-button.ytp-button').click();
+        document.querySelector('.ytp-ad-skip-button-modern.ytp-button').click();
     }catch{}
     setTimeout(adblockerbygza,200);
 }
